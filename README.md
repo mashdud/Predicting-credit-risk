@@ -27,5 +27,14 @@ Regulatory Compliance:
 How to ensure risk assessment aligns with financial regulations?
 How to apply explainable AI (XAI) for transparency in decisions?
 
+## Database
+Run on terminal POWERSHELL
+$env:MONGODB_URL= ""
 
+## WORKFLOW
 
+1.Constant
+2.entity
+3.components
+4.pipeline 
+5.Main.py
