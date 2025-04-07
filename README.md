@@ -10,22 +10,7 @@ This challenge requires a machine learning-driven risk assessment system that ca
 - Consumer Credit Risk:
 
 How to predict whether a consumer will default on a payment?
-How to balance frictionless payments while minimizing risk?
 
-Merchant Risk Evaluation:
-
-How to assess the credibility of a merchant before onboarding?
-How to detect high-risk businesses that may engage in fraudulent activities?
-
-Fraud Detection:
-
-How prevent fraudulent transactions while allowing legitimate ones?
-How to identify suspicious transaction patterns in real time?
-
-Regulatory Compliance:
-
-How to ensure risk assessment aligns with financial regulations?
-How to apply explainable AI (XAI) for transparency in decisions?
 
 ## Export the environment variable
 Run on terminal POWERSHELL
