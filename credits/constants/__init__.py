@@ -11,11 +11,16 @@ PIPELINE_NAME: str = "credits"
 ARTIFACT_DIR: str = "artifact"
 
 
+
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
 
 FILE_NAME: str = "credit_risk_dataset"
 MODEL_FILE_NAME = "model.pkl"
+
+AWS_ACCESS_KEY_ID_ENV_KEY = "AWS_ACCESS_KEY_ID"
+AWS_SECRET_ACCESS_KEY_ENV_KEY = "AWS_SECRET_ACCESS_KEY"
+REGION_NAME = "eu-west-3"
 
 
 """
@@ -56,4 +61,12 @@ MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
 MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
 MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
+
+
+"""
+MODEL EVALUATION related constant 
+"""
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_BUCKET_NAME = "credits33456"
+MODEL_PUSHER_S3_KEY = "model-registry"
 

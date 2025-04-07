@@ -27,9 +27,22 @@ Regulatory Compliance:
 How to ensure risk assessment aligns with financial regulations?
 How to apply explainable AI (XAI) for transparency in decisions?
 
-## Database
+## Export the environment variable
 Run on terminal POWERSHELL
 $env:MONGODB_URL= ""
+
+$env:AWS_ACCESS_KEY_ID = "<Your_AWS_ACCESS_KEY_ID>"
+$env:AWS_SECRET_ACCESS_KEY = "<Your_AWS_SECRET_ACCESS_KEY>"
+
+## AWS-CICD-Deployment-with-Github-Actions
+
+Login to AWS console.
+
+Create IAM user for deployment #with specific access
+
+EC2 access : It is virtual machine
+
+ECR: Elastic Container registry to save your docker image in aws
 
 ## WORKFLOW
 
