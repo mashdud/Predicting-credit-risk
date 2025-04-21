@@ -13,8 +13,10 @@ How to predict whether a consumer will default on a payment?
 
 
 ## Export the environment variable
+
 Run on terminal POWERSHELL
-$env:MONGODB_URL= ""
+
+$env:MONGODB_URL= " "
 
 $env:AWS_ACCESS_KEY_ID = "<Your_AWS_ACCESS_KEY_ID>"
 $env:AWS_SECRET_ACCESS_KEY = "<Your_AWS_SECRET_ACCESS_KEY>"
@@ -36,3 +38,35 @@ ECR: Elastic Container registry to save your docker image in aws
 3.components
 4.pipeline 
 5.Main.py
+
+
+## AWS-CICD-Deployment-with-Github-Actions
+Login to AWS console.
+
+Create IAM user for deployment #with specific access
+
+EC2 access : It is virtual machine
+
+ECR: Elastic Container registry to save your docker image in aws
+
+Description: About the deployment
+Build docker image of the source code
+
+Push your docker image to ECR
+
+Launch Your EC2
+
+Pull Your image from ECR in EC2
+
+Lauch your docker image in EC2
+
+Policy:
+AmazonEC2ContainerRegistryFullAccess
+
+AmazonEC2FullAccess
+
+Create ECR repo to store/save docker image
+
+Save the URI: 438465169815.dkr.ecr.eu-west-3.amazonaws.com/credit4
+Create EC2 machine (Ubuntu)
+Open EC2 and Install docker in EC2 Machine:

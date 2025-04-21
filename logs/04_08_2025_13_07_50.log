@@ -1,0 +1,2 @@
+[ 2025-04-08 13:07:54,766 ] root - INFO - Starting FastAPI server
+[ 2025-04-08 13:07:54,775 ] asyncio - DEBUG - Using proactor: IocpProactor

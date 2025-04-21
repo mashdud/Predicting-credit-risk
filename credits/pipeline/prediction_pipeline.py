@@ -62,7 +62,7 @@ class CREDITData:
         """
         try:
             
-            credit_input_dict = self.get_credit_input_data_frame()
+            credit_input_dict = self.get_credt_data_as_dict()
             return DataFrame(credit_input_dict)
         
         except Exception as e:
@@ -113,11 +113,11 @@ class CREDTClassifier:
 
     def predict(self, dataframe) -> str:
         """
-        This is the method of USvisaClassifier
+        
         Returns: Prediction in string format
         """
         try:
-            logging.info("Entered predict method of USvisaClassifier class")
+            logging.info("Entered predict method of Classifier class")
             model =  CredEstimator(
                 bucket_name=self.prediction_pipeline_config.model_bucket_name,
                 model_path=self.prediction_pipeline_config.model_file_path,

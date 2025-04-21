@@ -1,0 +1,91 @@
+[ 2025-04-08 12:39:35,961 ] asyncio - DEBUG - Using proactor: IocpProactor
+[ 2025-04-08 12:40:52,302 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,302 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+[ 2025-04-08 12:40:52,302 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[11:13]
+[ 2025-04-08 12:40:52,302 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,302 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[14:27]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[28:31]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[32:53]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[54:58]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[59:76]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[77:78]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[79:90]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[91:99]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[100:109]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[110:112]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[113:123]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[124:125]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[126:139]
+[ 2025-04-08 12:40:52,303 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[140:142]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[143:162]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[163:165]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[166:191]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[192:195]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[196:222]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[223:224]
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:40:52,304 ] python_multipart.multipart - DEBUG - Calling on_end with no data
+[ 2025-04-08 12:41:17,475 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,475 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+[ 2025-04-08 12:41:17,475 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[11:13]
+[ 2025-04-08 12:41:17,475 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,475 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[14:27]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[28:31]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[32:53]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[54:58]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[59:76]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[77:78]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[79:90]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[91:99]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[100:109]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[110:112]
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,476 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[113:123]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[124:125]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[126:139]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[140:142]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[143:162]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[163:165]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[166:191]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[192:195]
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_start with no data
+[ 2025-04-08 12:41:17,477 ] python_multipart.multipart - DEBUG - Calling on_field_name with data[196:222]
+[ 2025-04-08 12:41:17,478 ] python_multipart.multipart - DEBUG - Calling on_field_data with data[223:224]
+[ 2025-04-08 12:41:17,478 ] python_multipart.multipart - DEBUG - Calling on_field_end with no data
+[ 2025-04-08 12:41:17,478 ] python_multipart.multipart - DEBUG - Calling on_end with no data
