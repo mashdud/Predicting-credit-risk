@@ -1,72 +1,96 @@
-## Problem Statement: Estimating the Risk of Funding a Consumer's Purchase or Dealing with a Merchant
 
-# Context
+# 🧠 Predicting Credit Risk
+
+A machine learning project to predict credit risk, helping financial institutions reduce loan defaults, fraud, and financial losses.
+
+---
+
+
+## ❓ Problem Statement
 
 Financial institutions, payment providers, and fintech companies need to accurately assess the risk associated with funding consumer purchases and onboarding merchants. A failure to correctly estimate risk can lead to increased loan defaults, fraud, and financial losses.
 
-This challenge requires a machine learning-driven risk assessment system that can dynamically score consumers and merchants based on historical data, transaction behaviors, and financial trends.
+---
 
-# Key Challenges
-- Consumer Credit Risk:
+## 📁 Project Structure
 
-How to predict whether a consumer will default on a payment?
+```
+📦 root
+ ┣ 📂 credits         # Core logic and model pipeline
+ ┣ 📂 notebook        # Jupyter Notebooks for analysis
+ ┣ 📂 static          # CSS and assets
+ ┣ 📂 templates       # HTML frontend
+ ┣ 📜 app.py          # Flask Web Application
+ ┣ 📜 demo.py         # CLI Prediction Demo
+ ┣ 📜 Dockerfile
+ ┣ 📜 requirements.txt
+ ┗ 📜 setup.py
+```
 
+---
 
-## Export the environment variable
+## 🧪 Run Locally
 
-Run on terminal POWERSHELL
+### 🔧 Install Dependencies
 
-$env:MONGODB_URL= " "
+```bash
+pip install -r requirements.txt
+```
 
+### 🚀 Launch the App
+
+```bash
+python app.py
+```
+
+---
+
+## 🔐 Environment Variables (PowerShell)
+
+```powershell
+$env:MONGODB_URL = "your_mongodb_connection_string"
 $env:AWS_ACCESS_KEY_ID = "<Your_AWS_ACCESS_KEY_ID>"
 $env:AWS_SECRET_ACCESS_KEY = "<Your_AWS_SECRET_ACCESS_KEY>"
+```
 
-## AWS-CICD-Deployment-with-Github-Actions
+---
 
-Login to AWS console.
+## ☁️ AWS CI/CD Deployment (GitHub Actions)
 
-Create IAM user for deployment #with specific access
+### 🛠 Setup
 
-EC2 access : It is virtual machine
+1. IAM User with:
+   - AmazonEC2FullAccess
+   - AmazonEC2ContainerRegistryFullAccess
 
-ECR: Elastic Container registry to save your docker image in aws
+2. Create ECR repo  
+   URI: `438465169815.dkr.ecr.eu-west-3.amazonaws.com/credit4`
 
-## WORKFLOW
+3. Launch EC2 (Ubuntu) & install Docker
 
-1.Constant
-2.entity
-3.components
-4.pipeline 
-5.Main.py
+---
 
+### 📦 Workflow
 
-## AWS-CICD-Deployment-with-Github-Actions
-Login to AWS console.
+```bash
+# Build and push
+docker tag credit-risk:latest 438465169815.dkr.ecr.eu-west-3.amazonaws.com/credit4
+docker push 438465169815.dkr.ecr.eu-west-3.amazonaws.com/credit4
 
-Create IAM user for deployment #with specific access
+# On EC2
+docker pull 438465169815.dkr.ecr.eu-west-3.amazonaws.com/credit4
+docker run -d -p 80:5000 credit-risk
+```
 
-EC2 access : It is virtual machine
+---
 
-ECR: Elastic Container registry to save your docker image in aws
+## 🤝 Contributing
 
-Description: About the deployment
-Build docker image of the source code
+Contributions are welcome!  
+Fork → Improve → PR ✅
 
-Push your docker image to ECR
+---
 
-Launch Your EC2
+## 📄 License
 
-Pull Your image from ECR in EC2
-
-Lauch your docker image in EC2
-
-Policy:
-AmazonEC2ContainerRegistryFullAccess
-
-AmazonEC2FullAccess
-
-Create ECR repo to store/save docker image
-
-Save the URI: 438465169815.dkr.ecr.eu-west-3.amazonaws.com/credit4
-Create EC2 machine (Ubuntu)
-Open EC2 and Install docker in EC2 Machine:
+**MIT License**
